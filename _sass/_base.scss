@@ -5,8 +5,9 @@ $font-header: 'Space Mono', monospace;
 $font-body: 'Inconsolata', monospace;
 $font-post: 'Lora', serif;
 
-$color-alpha: #9f8f68;
-$color-alpha--light: #f5f3ef;
+$planetary-purple: #b656a0;
+$color-alpha: darken($planetary-purple, 25%);
+$color-alpha--light: lighten($planetary-purple, 25%);
 
 $color-black: #0a0a0a;
 $color-grey: #f8f9f9;

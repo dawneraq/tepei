@@ -1,28 +1,29 @@
 # Site settings
-email: 
+email: tepei.computing@gmail.com
 baseurl: ""
 paginate: 5
 paginate_path: "/blog/page-:num"
-google_analytics: 
+google_analytics:
 
 # SEO settings
-title: Trophy
-description: 
+title: Tau Epsilon Phi @ RPI
+description: Upholding Friendship, Chivalry, and Service since 1958.
 url: ""
-twitter_username: 
-default_img: 
+twitter_username:
+default_img:
 
 # Profile settings
-name: 
-profile_img: 
-profile: 
+name: Tau Epsilon Phi @ RPI
+profile_img: https://lh3.googleusercontent.com/-8lF5ga9uTGuDa40LtWF4BxXQ1ybMbfgk44J-DP14UC7_yuKI57xtRb5ocIgXFXZj6Hj3TpsFsZR-GpFcbxSK9xyiLmlCvDRHjTluVYBTlv9Appapp3A8x9ryegogXwduyxntRKkiorsE0kV6Oe3WEkan3drSjivHAsPM9s_6gDWYSSYy_B1FOtWYJYO1c5F1ljgVU-NQ1mqwJUGgdzLrmwFYfIGEqsQHyq3d7Vir9yOXaZvasqMlz6LmDQiKKsiQW556nyrsFXUVLE-bifxJ_SZ0CNka5SzwCM1uzepxCIvKYsbM_fsBOiOrLoMvnx6FV0Avq6vo-sgjJYV-BBhG4M8rNyH00YhlyRx0vrNR8xphVwQNeld3yFbaLSLMR3Ttmo3aqJ1xBec_bsr-5YdgqmduNfq202XwWdf00mwV1fr4nzU5RFPoETdS3PkLpbJS_e4DmNV81dXSwPrb-jI9nr5eZn6nkdL4LClPBeJPhqS0F0tHR9c7dTT0KPRPS7HUiN0wQaNcI0_rczjjew1hlRCyX6Wv8oCH8OjzSOclyAqHw7PsHZ4sKHZqgnlvg3Kx9dRQYHUzbQYc4a2UU7Tl5R3CfsClkd0m3WsTL1yhhkzfqLNtm2fEGuaOoJQJtdx1hFffKJHtolHskKmVs9L1_WXbr2f11okTmd7_vSoNp98zw=w1035-h776-no
+profile: Hella swag.
 social:
-  github: 
+  facebook: https://www.facebook.com/rpitep/
+  instagram: https://www.instagram.com/tepstagram/
 
 # Build settings
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
 markdown: kramdown
-permalink: /:year/:month/:day/:title/
+permalink: :title
 
 # Sass
 sass:
