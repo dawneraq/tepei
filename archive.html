@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Archive
-description: 
+description:
 permalink: /archive/
 ---
 <section class="archives" itemscope itemtype="http://schema.org/Blog">
   <a class="nav nav--black" href="{{ site.baseurl }}/">
     <i class="fa fa-lg fa-arrow-left"></i>
-    <span>Back to Posts</span>
+    <span>Back to Info</span>
   </a>
   <header class="archives__header">
     <span>Archive</span>
@@ -25,7 +25,7 @@ permalink: /archive/
           </div>
           <div class="card__container">
             <h2 class="card__header" itemprop="name">{{ post.title }}</h2>
-            <p class="card__count" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">
+            <!-- <p class="card__count" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}"> -->
               {{ post.date | date: "%b %-d, %Y" }}
               {% if post.categories.size > 0 %}
                 in {{ post.categories | join: ', ' }}
