@@ -1,3 +1,5 @@
+$brother-cell-height: 170px;
+
 /**
  * Body
  */
@@ -70,6 +72,33 @@ section {
 
       @media (min-width: $mq-md) {
         margin-left: 45%;
+      }
+    }
+  }
+}
+
+.brother-gallery {
+  .row {
+    margin-bottom: 0.5em;
+
+    .brother-cell {
+      vertical-align: top;
+      display: inline-block;
+      width: 19%;
+
+      img {
+        margin: 0;
+      }
+
+      .label {
+        p {
+          font-size: 1em !important;
+          text-align: center;
+
+          .position {
+            font-style: italic;
+          }
+        }
       }
     }
   }
