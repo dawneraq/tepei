@@ -22,7 +22,7 @@ Once you're satisfied with your changes:
 
 The built website will live in `_site/`. If the previous House Computing chair doesn't want you or the chapter to suffer, he'll have given you the FTP credentials.
 
-TODO: Continuous integration (automatically update upload update contents of this repo http://tepei.org whenever they change)
+TODO: Continuous integration (automatically update http://tepei.org whenever the contents of this repo change)
 
 ## Structure/Layout
 
